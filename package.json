@@ -1,0 +1,16 @@
+{
+  "name": "tests",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Ruben",
+  "license": "MIT",
+  "scripts": {
+    "testcafe": "testcafe \"chrome:headless\" testcafe.js",
+    "puppeteer": "mocha puppeteer.js"
+  },
+  "dependencies": {
+    "mocha": "^7.1.2",
+    "puppeteer": "^3.0.2",
+    "testcafe": "^1.8.4"
+  }
+}
